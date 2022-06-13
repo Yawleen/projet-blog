@@ -1,0 +1,39 @@
+.container > div {
+    border: 1px solid rgba(34, 34, 34, 0.171);
+    box-shadow: 0 0 2px rgba(34, 34, 34, 0.113);
+    border-radius: 5px;
+    width: 500px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container h5 {    
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.container h6 {
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+
+.container ul {
+    padding: 0 20px;
+}
+
+.container ul li {
+    margin-bottom: 0;
+}
+
+.container ul li:not(:first-child) {
+    border-top: 0px solid transparent;
+}
+
+@media all and (max-width: 600px) {
+    .container ul {
+        padding: 0;
+    }
+}

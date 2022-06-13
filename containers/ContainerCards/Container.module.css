@@ -1,0 +1,7 @@
+.containerArticles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 350px));
+    gap: 15px;
+    width: 100%;
+  }
+  

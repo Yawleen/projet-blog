@@ -1,16 +1,42 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+  min-width: 320px;
+  }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a:visited, a {
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  margin-bottom: 10px;
+  font-size: clamp(25px, 4vw, 40px);
+}
+
+.container > p {
+  margin-bottom: 30px;
+}
+
+.center {
+  justify-content: center;
+}
+
+@media all and (max-width: 600px) {
+  body .container {
+    padding: 0 25px;
+  }
+
 }

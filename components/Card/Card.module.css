@@ -1,0 +1,32 @@
+.cardArticle {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    border: 1px solid rgba(34, 34, 34, 0.171);
+    box-shadow: 0 0 2px rgba(34, 34, 34, 0.113);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.cardArticle h5 {
+    font-size: clamp(16.5px, 2vw, 20px);
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.cardArticle h6 {
+    font-size: clamp(14px, 1.5vw, 16px);
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.cardArticle p {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.cardArticle a {
+    margin: auto 0 0;
+}
+
+
